@@ -45,7 +45,8 @@
       <a class="p-2 text-dark" href="#">Extras</a>
     </nav>
   </div> -->
-  <nav class="navbar navbar-expand-sm navbar-light bg-light border-bottom shadow-sm">
+  <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top border-bottom shadow-sm">
+    <!-- @todo add a padding like container -->
     <a class="navbar-brand" href="#">RR</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,16 +59,35 @@
         <a class="nav-item nav-link" href="#">Work</a>
         <a class="nav-item nav-link" href="#">Extras</a>
       </div>
-      
     </div>
   </nav>
-  <!-- Header -->
-  <div class="d-flex flex-row bg-white flex-justify-content-">
-    <div class="card">
 
+  <!-- Header -->
+  <div class="d-flex flex-row bg-white">
+    <!-- Card with picture -->
+    <div class="card ml-5 mt-4" id="profilepic">
+      <img class="card-img-top" src="img/propic.jpg" alt="Card image cap">
+    </div>
+
+    <!-- quick info -->
+    <div class="flex-grow-1">
+      <div id="info" class="d-flex bg-light flex-column text-center align-items-center ml-3 mt-4">
+        <div>
+          <h3>Rahul Rajampeta</h3>
+        </div>
+        <div>
+          <h5>Automotive Controls Engineer</h5>
+        </div>
+      </div>
     </div>
   </div>
 
+  <!-- Work in progress -->
+  <br><br>
+  <div class="d-flex flex-column align-items-center mt-5 bg-light">
+    <h2 class="mt-5 mb-3">Work - In - Progress</h2>
+    <p class="pb-3"> ... check back later ... </p>
+  </div>
   <!-- Education section 
   <div class="container">
     <h3>Education section</h3>

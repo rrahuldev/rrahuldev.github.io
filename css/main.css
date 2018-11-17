@@ -96,9 +96,18 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    padding-top: 70px;  /* required for fixed navbar; 50px of overlap */
+}
 
+#profilepic {
+    width: 18rem;
+}
 
-
+#info {
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;  
+}
 
 
 
